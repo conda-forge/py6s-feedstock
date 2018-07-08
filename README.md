@@ -17,14 +17,15 @@ in an easily processable form.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/py6s-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/py6s-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/py6s-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/py6s-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/py6s-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/py6s-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/py6s-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/py6s-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py6s/badges/version.svg)](https://anaconda.org/conda-forge/py6s)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py6s/badges/downloads.svg)](https://anaconda.org/conda-forge/py6s)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-py6s-green.svg)](https://anaconda.org/conda-forge/py6s) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py6s.svg)](https://anaconda.org/conda-forge/py6s) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/py6s.svg)](https://anaconda.org/conda-forge/py6s) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py6s.svg)](https://anaconda.org/conda-forge/py6s) |
 
 Installing py6s
 ===============
@@ -69,6 +70,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
