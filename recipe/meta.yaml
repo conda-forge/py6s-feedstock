@@ -1,6 +1,6 @@
 {% set name = "Py6S" %}
-{% set version = "1.7.0" %}
-{% set sha256 = "e16cc28e54a59d3908b3902744d261046630e6811cb50b6a13e746f68d421b8b" %}
+{% set version = "1.7.1" %}
+{% set sha256 = "8b2f791f68e11bd3db5fd499746a755d6ead495531cbf83c528cc6811c51fc44" %}
 
 package:
   name: {{ name|lower }}
