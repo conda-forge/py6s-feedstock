@@ -1,6 +1,6 @@
 {% set name = "Py6S" %}
-{% set version = "1.7.0" %}
-{% set sha256 = "e16cc28e54a59d3908b3902744d261046630e6811cb50b6a13e746f68d421b8b" %}
+{% set version = "1.7.2" %}
+{% set sha256 = "5c0d0b47607c4ecdf22a81242af8369fc3b99249da0e23e25e9e7ac554d9adcc" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
