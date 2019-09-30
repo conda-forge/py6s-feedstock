@@ -1,26 +1,22 @@
-{% set name = "Py6S" %}
 {% set version = "1.7.2" %}
-{% set sha256 = "5c0d0b47607c4ecdf22a81242af8369fc3b99249da0e23e25e9e7ac554d9adcc" %}
 
 package:
-  name: {{ name|lower }}
+  name: py6s
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/P/Py6S/Py6S-{{ version }}.tar.gz
+  sha256: 5c0d0b47607c4ecdf22a81242af8369fc3b99249da0e23e25e9e7ac554d9adcc
 
 build:
+  number: 1
   noarch: python
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
     - pip
     - python
-    - setuptools
   run:
     - python
     - pysolar 0.6
@@ -38,6 +34,7 @@ test:
 about:
   home: http://py6s.rtwilson.com/
   license: LGPL-3.0
+  license_file: COPYING.LESSER
   license_family: LGPL
 
   summary: A Python interface to the 6S Radiative Transfer Model
