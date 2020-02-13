@@ -9,7 +9,7 @@ source:
   sha256: 5c0d0b47607c4ecdf22a81242af8369fc3b99249da0e23e25e9e7ac554d9adcc
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -20,7 +20,7 @@ requirements:
   run:
     - python
     - pysolar 0.6
-    - matplotlib
+    - matplotlib-base
     - scipy
     - numpy
     - sixs
