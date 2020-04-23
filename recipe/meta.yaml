@@ -1,4 +1,4 @@
-{% set version = "1.7.2" %}
+{% set version = "1.8.0" %}
 
 package:
   name: py6s
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/Py6S/Py6S-{{ version }}.tar.gz
-  sha256: 5c0d0b47607c4ecdf22a81242af8369fc3b99249da0e23e25e9e7ac554d9adcc
+  sha256: 256162d2f1f558e601d4f79022c037a0051838ba307b9f4d1f5fcf0b46a0c277
 
 build:
-  number: 2
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
