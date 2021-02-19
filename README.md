@@ -5,9 +5,13 @@ Home: http://py6s.rtwilson.com/
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py6s-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python interface to the 6S Radiative Transfer Model
+
+Development: https://github.com/robintw/py6s
+
+Documentation: http://py6s.readthedocs.io/en/latest/
 
 A wrapper for the 6S Radiative Transfer Model to make it easy to
 run simulations with a variety of input parameters, and to produce outputs
