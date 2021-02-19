@@ -1,4 +1,4 @@
-{% set version = "1.8.0" %}
+{% set version = "1.8.1" %}
 
 package:
   name: py6s
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/Py6S/Py6S-{{ version }}.tar.gz
-  sha256: 256162d2f1f558e601d4f79022c037a0051838ba307b9f4d1f5fcf0b46a0c277
+  sha256: 393a270f0c2becee5e01cf8c0c56a9ba210cf9ec6c0836633f16746fc151dd51
 
 build:
   number: 0
