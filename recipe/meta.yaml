@@ -19,8 +19,7 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    - pysolar 0.6
-    - matplotlib-base
+    - pysolar >=0.9
     - scipy
     - numpy
     - sixs
