@@ -3,7 +3,7 @@ About py6s
 
 Home: http://py6s.rtwilson.com/
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py6s-feedstock/blob/master/LICENSE.txt)
 

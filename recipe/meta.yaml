@@ -1,4 +1,4 @@
-{% set version = "1.8.2" %}
+{% set version = "1.9.0" %}
 
 package:
   name: py6s
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/Py6S/Py6S-{{ version }}.tar.gz
-  sha256: 296b09db5e56ef82aced031aa06219c2901ef598f67c0e47d07c566bfb4b87db
+  sha256: 7747b61dfb0543f4a255e8d734df6bae9d15b79f9d863b30c6bba01409dd1441
 
 build:
   number: 0
@@ -19,8 +19,7 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    - pysolar 0.6
-    - matplotlib-base
+    - pysolar >=0.9
     - scipy
     - numpy
     - sixs
